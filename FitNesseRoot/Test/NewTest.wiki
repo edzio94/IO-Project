@@ -1,0 +1,9 @@
+---
+Test
+---
+!define TEST_SYSTEM {slim}
+|Arr|
+|x|size?|
+|1|1|
+|2|4|
+|3|10|

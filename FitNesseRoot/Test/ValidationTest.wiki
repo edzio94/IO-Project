@@ -1,0 +1,10 @@
+---
+Test
+---
+!define TEST_SYSTEM {slim}
+|validation extra   |
+|username|valid?    |
+|eqwe    |false     |
+|qwewqe  |true      |
+|a       |false     |
+|abcde   |false      |

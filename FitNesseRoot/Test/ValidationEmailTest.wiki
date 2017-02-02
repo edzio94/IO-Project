@@ -1,0 +1,9 @@
+---
+Test
+---
+!define TEST_SYSTEM {slim}
+|validation extra        |
+|email           |valide?|
+|eqwe@test.com   |true   |
+|qwewqe@test@test|false  |
+|@test.com       |false  |

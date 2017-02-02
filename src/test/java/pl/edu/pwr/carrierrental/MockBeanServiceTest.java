@@ -1,5 +1,6 @@
 package pl.edu.pwr.carrierrental;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,6 +37,12 @@ public class MockBeanServiceTest {
                 .build();
         given(this.serwisFilm.znajdzFIlm("test")).willReturn(w);
         assertThat(this.serwisFilm.znajdzFIlm("test")).isEqualTo(w);
+    }
+    @Test
+    public void skwew(){
+        int a = 4;
+        int b = 123;
+        Assert.assertEquals(127,a+b);
     }
 
 }

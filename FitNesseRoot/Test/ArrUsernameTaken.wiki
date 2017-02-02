@@ -1,0 +1,9 @@
+---
+Test
+---
+!define TEST_SYSTEM {slim}
+|Arr               |
+|username|contains?|
+|KKK     |true     |
+|ABCD    |false    |
+|testowy |true     |
